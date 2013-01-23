@@ -1,0 +1,8 @@
+#!/sbin/sh
+if [ -e /system/xbin/rngd ]
+then
+  /system/xbin/rngd
+else
+  #/sbin/rngd --rng-quality=low --rng-timeout=1 --random-step=512 --feed-interval=1
+  /sbin/rngd --rng-quality=low 
+fi
