@@ -1,0 +1,8 @@
+# mount point	fstype    device    	[device2]	fstype2
+
+/cache      yaffs2	    cache
+/data       ext2	    /turbo/userdata4.ext2.img   
+/system     ext2	    /turbo/system4.ext2.img     
+/sdcard     vfat        /dev/block/mmcblk0p1
+/sd-ext     auto        /dev/block/mmcblk0p2
+
